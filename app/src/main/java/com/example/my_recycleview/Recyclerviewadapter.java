@@ -36,6 +36,7 @@ public class Recyclerviewadapter extends RecyclerView.Adapter<Recyclerviewadapte
 
         holder.tvn.setText(pictures.get(position).getName());
         holder.imageView.setImageResource(pictures.get(position).getImage());
+        holder.tvl.setText(pictures.get(position).getLatter());
 
     }
 
@@ -50,12 +51,13 @@ public class Recyclerviewadapter extends RecyclerView.Adapter<Recyclerviewadapte
         //kinda like onCreate method
 
         ImageView imageView;
-        TextView tvn;
+        TextView tvn,tvl;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
             imageView = itemView.findViewById(R.id.imageView);
             tvn = itemView.findViewById(R.id.textView);
+            tvl = itemView.findViewById(R.id.tvl);
         }
     }
 }

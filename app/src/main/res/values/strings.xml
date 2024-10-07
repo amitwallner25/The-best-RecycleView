@@ -5,6 +5,28 @@
     <string name="new_item_text">NEW_ITEM_TEXT</string>
     <string name="new_icon_picked">NEW_ICON_PICKED</string>
 
+    <string-array name="RandomLatter">
+
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+        <item> a </item>
+
+
+
+    </string-array>
+
 
     <string-array name="pName">
 

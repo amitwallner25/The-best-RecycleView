@@ -31,9 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void  setUpPictures(){
         String [] pName = getResources().getStringArray(R.array.pName);
+        String [] latarr = getResources().getStringArray(R.array.RandomLatter);
 
         for (int i = 0; i < pName.length; i++){
-            pictures.add(new Pictures(pName[i],pictureArr[i]));
+            pictures.add(new Pictures(pName[i],pictureArr[i],latarr[i]));
         }
     }
 }
